@@ -1,4 +1,4 @@
-### Hengnan No.1 High School Programming Club
+## Hengnan No.1 High School Programming Club
 
 > nothing.
 
