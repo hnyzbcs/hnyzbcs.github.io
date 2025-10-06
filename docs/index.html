@@ -6,6 +6,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 </head>
 <body>
   <nav>
@@ -16,12 +17,31 @@
   <div id="app">正在加载 ...</div>
   <script>
     window.$docsify = {
+      copyCode:{
+        buttonText: '复制',
+        successText: '已复制'
+      },
+      coverpage: true,
       name: '',
       repo: '',
+      basePath: '/',
       loadSidebar: true
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'Github Application Client ID',
+      clientSecret: 'Github Application Client Secret',
+      repo: 'https://github.com/hnyzbcs/hnyzbcs.github.io',
+      owner: 'dqfamily',
+      admin: ['dqfamily'],
+      distractionFreeMode: false
+    })
+  </script>
 </body>
 </html>
