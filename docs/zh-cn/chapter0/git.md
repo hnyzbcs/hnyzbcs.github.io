@@ -46,7 +46,8 @@ Git的初始化配置非常简单。
 
 然后执行下面两行命令：
 
-```Bash
+```bash
+cd ..
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
