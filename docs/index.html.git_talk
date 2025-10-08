@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <head>
   <meta charset="UTF-8">
   <title>衡南一中编程社</title>
@@ -7,30 +6,25 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css">
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
   <link rel="stylesheet" href="prism.css">
   <style>
-    img {
-      width: 400px;
-    }
-
-    .markdown-section pre>code {
-      padding: 10px;
-    }
+    .markdown-section pre > code {
+    padding: 6px;
+  }
   </style>
 </head>
-
 <body>
-  <!-- <nav>
+  <nav>
     <a href="#/">EN</a>
     <a href="#/zh-cn/">中文</a>
     <a href="https://github.com/hnyzbcs/hnyzbcs.github.io">在GitHub上编辑</a>
-  </nav> -->
+  </nav>
   <div id="app">正在加载 ...</div>
   <script>
     window.$docsify = {
-      copyCode: {
+      copyCode:{
         buttonText: '复制',
         successText: '已复制'
       },
@@ -38,20 +32,17 @@
       name: '',
       repo: '',
       basePath: '/',
-      loadSidebar: true,
-      loadNavbar: true
+      loadSidebar: true
     }
   </script>
   <!-- Docsify v4 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="prism.js"></script>
-  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script> -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script>
     var gitalk = new Gitalk({
@@ -63,7 +54,6 @@
       distractionFreeMode: true,
       id: decodeURI(window.location.pathname),
     })
-  </script> -->
+  </script>
 </body>
-
 </html>
