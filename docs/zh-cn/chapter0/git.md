@@ -61,4 +61,6 @@ git config --global user.email "your.email@example.com"
 
 ## 使用Git
 
+vscode有一个专门的栏目可以图形化使用Git,自己去看看吧 awa 。
 
+> 其实是没时间写了...
